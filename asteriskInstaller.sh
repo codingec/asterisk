@@ -7,6 +7,10 @@ mysql_secure_installation
 
 cd  /usr/tmp
 
+wget http://www.digip.org/jansson/releases/jansson-2.7.tar.gz
+
+tar -zxvf jansson-2.7.tar.gz
+
 wget http://downloads.asterisk.org/pub/telephony/certified-asterisk/asterisk-certified-13.13-current.tar.gz
 
 tar -zxvf asterisk-certified-13.13-current.tar.gz
