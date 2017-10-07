@@ -2,10 +2,6 @@ yum update
 
 yum install gcc gcc-c++ php-xml php php-mysql php-pear php-mbstring mariadb-devel mariadb-server mariadb sqlite-devel lynx bison gmime-devel psmisc tftp-server httpd make ncurses-devel libtermcap-devel sendmail sendmail-cf caching-nameserver sox newt-devel libxml2-devel libtiff-devel audiofile-devel gtk2-devel uuid-devel libtool libuuid-devel subversion kernel-devel kernel-devel-$(uname -r) git subversion kernel-devel php-process crontabs cronie cronie-anacron wget vim
 
-mysql_secure_installation
-
-
-cd  /usr/tmp
 
 wget http://www.digip.org/jansson/releases/jansson-2.7.tar.gz
 
@@ -20,6 +16,8 @@ cd asterisk-certified-13.13-cert6
 ./configure --libdir=/usr/lib64
 
 #COMMENTED CODE  RUN AFTER THIS FILE IS RUN
+
+#mysql_secure_installation
 
 #make menuselect
 
