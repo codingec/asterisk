@@ -32,6 +32,9 @@ cd asterisk-certified-13.13-cert6
 #make config
 
 #mysql -u root -p
+### This code that´s below it turns the asterisk service on even after boot
+#make config
+# chkconfig asterisk on
 
 useradd -m asterisk
 
